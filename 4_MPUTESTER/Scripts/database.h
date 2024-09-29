@@ -11,7 +11,7 @@ class UnitMaster
     public:
         void create();
         void insert(const vector<string>& params);
-        void addData(string filename);
+        void addData(const string& filename);
         void dataAvailable();
         void getPartNo(int part_no) const;
         void getPartName(int part_no) const;
